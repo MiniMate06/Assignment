@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: gainsboro;
+}
+
+header{
+	background-color: whitesmoke;
+	padding: 20px;
+}
+
+aside > ul {
+	list-style-type : none;
+	background-color : dimgrey;
+	width: 100%;
+	padding :0;
+	margin: 0;
+	text-align: center;
+}
+
+aside > ul > li {
+	background-color: white;
+	display: inline-block;
+	padding: 20px
+}
+
+a {
+	text decoration: none;
+	color : black;
+}
+
+a: hover {
+	background-color: red;
+}
+
+.activeLink {
+	background-color: red;
+}
+
+.acctiveLink > a {
+	color: red;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+article{
+	background-color:lightgray;
+	padding: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+img{
+	width: 35%;
+	float:right;
+	padding-right: 0px;
+}
+
+footer{
+	background-color: white;
+	padding: 20px;
+	clear: both;
+	text-align: center;
+}
